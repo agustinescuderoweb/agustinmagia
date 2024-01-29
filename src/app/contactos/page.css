@@ -1,0 +1,163 @@
+
+.iconos {
+    color: white;
+}
+
+.instagram {
+    color: white;
+}
+
+.redessociales h1 {
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.sectioncontactos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #001540;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    margin: 5%;
+    border: 2px solid black;
+    padding: 5%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.formulario h2 {
+    padding: 2%;
+}
+
+.formulario form {
+    width: 90%;
+    background-color: white;
+}
+
+.redessociales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconos{
+    display: flex;
+    margin: 30px;
+    gap: 50px;
+    color: white;
+}
+.redessociales h1 {
+    font-size: 280%;
+    color: white;
+}
+
+
+
+
+@media screen and (max-width: 960px){
+    
+    .sectioncontactos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #001540;
+    }
+    
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: 15%;
+        border: 2px solid black;
+        padding: 10%;
+        background-color: white;
+        border-radius: 10px;
+    }
+    
+    .formulario h2 {
+        padding: 5%;
+    }
+    
+    .formulario form {
+        width: 80%;
+        background-color: white;
+    }
+    
+    .redessociales {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10%;
+    }
+    
+    .iconos{
+        display: flex;
+        margin: 30px;
+        gap: 50px;
+        color: white;
+    }
+    .redessociales h1 {
+        font-size: 250%;
+        color: white;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    
+    .sectioncontactos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #001540;
+    }
+    
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin: 15%;
+        border: 2px solid black;
+        padding: 10%;
+        background-color: white;
+        border-radius: 10px;
+    }
+    
+    .formulario h2 {
+        padding: 5%;
+    }
+    
+    .formulario form {
+        width: 80%;
+        background-color: white;
+    }
+    
+    .redessociales {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10%;
+    }
+    
+    .iconos{
+        display: flex;
+        margin: 30px;
+        gap: 50px;
+        color: white;
+    }
+    .redessociales h1 {
+        font-size: 250%;
+        color: white;
+    }
+    
+}
+

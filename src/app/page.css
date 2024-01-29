@@ -1,0 +1,89 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #001540;
+    height: 100%;
+}
+
+.card {
+    width: 300px;
+    margin: 40px;
+    margin-top: 80px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 20px white;
+  
+}
+
+.card-img-top {
+    box-shadow: 0px 0px 10px black;
+}
+
+@media screen and (max-width: 550px) {
+
+    .hero {
+        width: 100%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        background-color: #001540;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content:  center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+
+    .card:hover {
+    box-shadow: 0px 0px 20px white;
+    }
+
+
+    .Link {
+        width: 70%;
+    }
+
+}
+    @media screen and (max-width: 960px) {
+
+        .hero {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-top: 10%;
+            padding-bottom: 10%;
+            background-color: #001540;
+        }
+    
+        .card {
+            display: flex;
+            flex-direction: column;
+            justify-content:  center;
+            align-items: center;
+            text-align: center;
+    
+        }
+    
+        .Link {
+            width: 70%;
+        }
+    
+
+
+
+}
