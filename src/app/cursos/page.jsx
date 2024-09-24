@@ -28,7 +28,7 @@ function Cursos() {
                Recibirás un E-book con el contenido teórico y práctico. Más los videos en formato MP4 para que puedas observar y estudiar los movimientos. <br></br><br></br>
                El Curso es simple, sencillo y fácil de entender. </p>
                <div className='boton'>
-               <Link href="./contactos" className="btn btn-primary">+ Más Info</Link>
+               <Link href={'https://wa.link/qk6cvj'} className="btn btn-primary">+ Más Info</Link>
                </div>
         </div>
     </section>
