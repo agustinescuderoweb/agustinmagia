@@ -23,7 +23,11 @@ function Navbar() {
   return (
     <header className={`head ${navVisible ? 'nav-open' : ''}`}>
         <Image className='logo' src={logomagia} alt='Logo' />
+<<<<<<< HEAD
         <button className='abri-menu' id='abrir' onClick={toggleNav}><Image src={iconmenu}></Image></button>
+=======
+        <button className='abri-menu' id='abrir' onClick={toggleNav}><Image className='imagen' src={iconmenu}></Image></button>
+>>>>>>> 0ba4e82 (nuevo)
         <nav className={`nav ${navVisible ? 'visible' : ''}`} id="nav">
           <button className='cerrar-menu' id='cerrar' onClick={toggleNav}><Image src={iconmenu}></Image></button>
           <ul className='nav-lista'>

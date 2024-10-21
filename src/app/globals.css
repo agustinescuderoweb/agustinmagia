@@ -2,8 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 :root {
   --font-principal: 'Varela Round', sans-serif;
+=======
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Permanent+Marker&family=Righteous&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Righteous", sans-serif;
+  font-weight: 500;
+  font-size: 19px;
+  font-style: normal;
+  
+>>>>>>> 0ba4e82 (nuevo)
 }

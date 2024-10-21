@@ -34,6 +34,13 @@
     align-items: center;
 }
 
+<<<<<<< HEAD
+=======
+.texto h1 {
+    font-size: 50px;
+}
+
+>>>>>>> 0ba4e82 (nuevo)
 .seccion p {
     font-size: 120%;
     padding: 3%;

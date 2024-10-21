@@ -7,12 +7,57 @@
     color: white;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0ba4e82 (nuevo)
 .redessociales h1 {
     text-align: center;
     color: white;
     margin: 0;
 }
 
+<<<<<<< HEAD
+=======
+.input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.text {
+    border-radius: 20px;
+    height: 50px;
+    background-color: gainsboro;
+}
+
+.text::placeholder {
+    padding: 10px;
+}
+
+
+
+.mensaje {
+    border-radius: 20px;
+    height: 120px;
+    background-color: gainsboro;
+}
+
+.mensaje::placeholder {
+    padding: 10px;
+}
+
+.button {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: green;
+    box-shadow: 0px 0px 30px green;
+    margin-top: 10px;
+    color: white;
+    width: 80%;
+}
+
+>>>>>>> 0ba4e82 (nuevo)
 .sectioncontactos {
     display: flex;
     flex-direction: row;
@@ -24,16 +69,29 @@
 .formulario {
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     width: 27%;
     margin: 5%;
     border: 2px solid black;
+=======
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 27%;
+    margin: 5%;
+    box-shadow: 0px 0px 10px white;
+>>>>>>> 0ba4e82 (nuevo)
     padding: 5%;
     background-color: white;
     border-radius: 10px;
 }
 
 .formulario h2 {
+<<<<<<< HEAD
     padding: 2%;
+=======
+    font-size: 30px;
+>>>>>>> 0ba4e82 (nuevo)
 }
 
 .formulario form {
@@ -47,6 +105,10 @@
     align-items: center;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0ba4e82 (nuevo)
 .iconos{
     display: flex;
     margin: 30px;
@@ -60,7 +122,10 @@
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0ba4e82 (nuevo)
 @media screen and (max-width: 960px){
     
     .sectioncontactos {
@@ -75,6 +140,10 @@
         display: flex;
         flex-direction: column;
         width: 50%;
+<<<<<<< HEAD
+=======
+        width: 90%;
+>>>>>>> 0ba4e82 (nuevo)
         margin: 15%;
         border: 2px solid black;
         padding: 10%;
@@ -124,7 +193,14 @@
     .formulario {
         display: flex;
         flex-direction: column;
+<<<<<<< HEAD
         width: 70%;
+=======
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+>>>>>>> 0ba4e82 (nuevo)
         margin: 15%;
         border: 2px solid black;
         padding: 10%;
@@ -159,5 +235,11 @@
         color: white;
     }
     
+<<<<<<< HEAD
+=======
+    .button {
+        width: 80%;
+    }
+>>>>>>> 0ba4e82 (nuevo)
 }
 

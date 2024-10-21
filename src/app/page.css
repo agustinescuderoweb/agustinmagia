@@ -4,7 +4,11 @@
     text-align: center;
     align-items: center;
     background-color: #001540;
+<<<<<<< HEAD
     height: 100%;
+=======
+    height: 800px;
+>>>>>>> 0ba4e82 (nuevo)
 }
 
 .card {

@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+<<<<<<< HEAD
     font-family: 'Varela Round', sans-serif;
+=======
+>>>>>>> 0ba4e82 (nuevo)
 }
 
 .logo {
@@ -44,6 +47,13 @@
 @media screen and (max-width: 550px) {
     .abri-menu {
        display: block;
+<<<<<<< HEAD
+=======
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+>>>>>>> 0ba4e82 (nuevo)
     }
     .cerrar-menu
     {
@@ -51,12 +61,22 @@
        display: block;
    }
    button {
+<<<<<<< HEAD
        width: 40px;
        height: 40px;
+=======
+       display: flex;
+       width: 40px;
+       height: 40px;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+>>>>>>> 0ba4e82 (nuevo)
        background-color:  white;
        margin: 0px;
        border: 0;
        border-radius: 20%;
+<<<<<<< HEAD
        box-shadow: 1px 1px 1px black;
    }
 
@@ -64,6 +84,19 @@
        width: 1000px;
        border: 0px;
    }
+=======
+       box-shadow: 0px 0px 1px black;
+   }
+   
+
+   .imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+
+>>>>>>> 0ba4e82 (nuevo)
 
    .bi {
        width: 70px;
@@ -123,6 +156,12 @@
 @media screen and (max-width: 970px) {
     .abri-menu {
        display: block;
+<<<<<<< HEAD
+=======
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+>>>>>>> 0ba4e82 (nuevo)
     }
     .cerrar-menu
     {
@@ -130,6 +169,7 @@
        display: block;
    }
    button {
+<<<<<<< HEAD
        width: 40px;
        height: 40px;
        background-color:  white;
@@ -142,6 +182,27 @@
    Image {
        width: 1000px;
        border: 0px;
+=======
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:  white;
+    margin: 0px;
+    border: 0;
+    border-radius: 20%;
+    box-shadow: 0px 0px 3px black;
+   }
+
+   .imagen {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+>>>>>>> 0ba4e82 (nuevo)
    }
 
    .bi {
