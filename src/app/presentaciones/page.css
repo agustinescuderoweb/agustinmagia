@@ -15,11 +15,8 @@
 }
 
 .magiacerca {
-<<<<<<< HEAD
     width: 30%;
-=======
     width: 85%;
->>>>>>> 0ba4e82 (nuevo)
     height: 30%;
     border-radius: 10px;
     margin: 6%;
@@ -81,13 +78,6 @@ p {
     padding: 10%;
 }
 
-<<<<<<< HEAD
-=======
-.secciontexto  h1 {
-    font-size: 40px;
-}
-
->>>>>>> 0ba4e82 (nuevo)
 .sections {
     background-color: #001540;
     padding: 10% 0 10% 0 ;

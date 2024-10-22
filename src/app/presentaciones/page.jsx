@@ -20,11 +20,7 @@ function presentaciones () {
          La manipulación de objetos pequeños como cartas, monedas, 
          pañuelos, bolas de esponjas....
          Son los protagonistas de un momento único.</p>
-<<<<<<< HEAD
          <Link href="./contactos" className="btn btn-primary">+ Más Info</Link>
-=======
-         <Link href="https://wa.link/qk6cvj" className="btn btn-primary">+ Más Info</Link>
->>>>>>> 0ba4e82 (nuevo)
          </div>
   </div>
   </div>
@@ -36,11 +32,7 @@ function presentaciones () {
          número mayor de espectadores. La participación de
          los presentes, más un clima de profundo misterio
          generan un ambiente de completa sorpresa...</p>
-<<<<<<< HEAD
          <Link href="./contactos" className="btn btn-primary">+ Más Info</Link>
-=======
-         <Link href='https://wa.link/qk6cvj' className="btn btn-primary">+ Más Info</Link>
->>>>>>> 0ba4e82 (nuevo)
          </div>
     </div>
     <div className='magiabares'>
@@ -51,11 +43,7 @@ function presentaciones () {
          Efectos de magia exclusivos para espacios
          reducidos llenan de asombro y misterio a todos aquellos que
          deseen disfrutar de un momento diferente.</p>
-<<<<<<< HEAD
          <Link href="./contactos" className="btn btn-primary">+ Más Info</Link>
-=======
-         <Link href='https://wa.link/qk6cvj' className="btn btn-primary">+ Más Info</Link>
->>>>>>> 0ba4e82 (nuevo)
          </div>
     </div>
     </section>

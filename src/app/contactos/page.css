@@ -7,18 +7,13 @@
     color: white;
 }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 0ba4e82 (nuevo)
 .redessociales h1 {
     text-align: center;
     color: white;
     margin: 0;
 }
 
-<<<<<<< HEAD
-=======
 .input {
     display: flex;
     flex-direction: column;
@@ -52,46 +47,36 @@
     border-radius: 20px;
     background-color: green;
     box-shadow: 0px 0px 30px green;
-    margin-top: 10px;
+    margin-top: 40px;
     color: white;
     width: 80%;
 }
 
->>>>>>> 0ba4e82 (nuevo)
 .sectioncontactos {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: #001540;
+    gap: 100px;
 }
 
 .formulario {
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
-    width: 27%;
-    margin: 5%;
-    border: 2px solid black;
-=======
     justify-content: center;
     align-items: center;
     text-align: center;
     width: 27%;
     margin: 5%;
     box-shadow: 0px 0px 10px white;
->>>>>>> 0ba4e82 (nuevo)
     padding: 5%;
     background-color: white;
     border-radius: 10px;
 }
 
 .formulario h2 {
-<<<<<<< HEAD
-    padding: 2%;
-=======
-    font-size: 30px;
->>>>>>> 0ba4e82 (nuevo)
+    font-size: 40px;
 }
 
 .formulario form {
@@ -105,10 +90,7 @@
     align-items: center;
 }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 0ba4e82 (nuevo)
 .iconos{
     display: flex;
     margin: 30px;
@@ -122,10 +104,6 @@
 
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 0ba4e82 (nuevo)
 @media screen and (max-width: 960px){
     
     .sectioncontactos {
@@ -139,11 +117,8 @@
     .formulario {
         display: flex;
         flex-direction: column;
-        width: 50%;
-<<<<<<< HEAD
-=======
         width: 90%;
->>>>>>> 0ba4e82 (nuevo)
+        width: 90%;
         margin: 15%;
         border: 2px solid black;
         padding: 10%;
@@ -193,14 +168,10 @@
     .formulario {
         display: flex;
         flex-direction: column;
-<<<<<<< HEAD
-        width: 70%;
-=======
         justify-content: center;
         align-items: center;
         text-align: center;
         width: 90%;
->>>>>>> 0ba4e82 (nuevo)
         margin: 15%;
         border: 2px solid black;
         padding: 10%;
@@ -235,11 +206,172 @@
         color: white;
     }
     
-<<<<<<< HEAD
-=======
     .button {
         width: 80%;
     }
->>>>>>> 0ba4e82 (nuevo)
+}
+
+
+
+.iconos {
+    color: white;
+}
+
+.instagram {
+    color: white;
+}
+
+.redessociales h1 {
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.sectioncontactos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #001540;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    margin: 5%;
+    border: 2px solid black;
+    padding: 5%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.formulario h2 {
+    padding: 2%;
+}
+
+.formulario form {
+    width: 90%;
+    background-color: white;
+}
+
+.redessociales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconos{
+    display: flex;
+    margin: 30px;
+    gap: 50px;
+    color: white;
+}
+.redessociales h1 {
+    font-size: 280%;
+    color: white;
+}
+
+
+
+
+@media screen and (max-width: 960px){
+    
+    .sectioncontactos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #001540;
+    }
+    
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 15%;
+        border: 2px solid black;
+        padding: 10%;
+        background-color: white;
+        border-radius: 10px;
+    }
+    
+    .formulario h2 {
+        padding: 5%;
+    }
+    
+    .formulario form {
+        width: 80%;
+        background-color: white;
+    }
+    
+    .redessociales {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10%;
+    }
+    
+    .iconos{
+        display: flex;
+        margin: 30px;
+        gap: 50px;
+        color: white;
+    }
+    .redessociales h1 {
+        font-size: 250%;
+        color: white;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    
+    .sectioncontactos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #001540;
+    }
+    
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 15%;
+        border: 2px solid black;
+        padding: 10%;
+        background-color: white;
+        border-radius: 10px;
+    }
+    
+    .formulario h2 {
+        padding: 5%;
+    }
+    
+    .formulario form {
+        width: 80%;
+        background-color: white;
+    }
+    
+    .redessociales {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10%;
+    }
+    
+    .iconos{
+        display: flex;
+        margin: 30px;
+        gap: 50px;
+        color: white;
+    }
+    .redessociales h1 {
+        font-size: 250%;
+        color: white;
+    }
+    
 }
 
