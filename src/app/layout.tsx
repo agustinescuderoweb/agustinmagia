@@ -15,6 +15,9 @@ export const metadata = {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="es">
+      <head>
+      <link rel="icon" href="/logomagia.ico" />
+      </head>
       <body>
         <Navbar />
         {children}
