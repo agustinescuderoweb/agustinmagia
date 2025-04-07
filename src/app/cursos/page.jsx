@@ -1,18 +1,19 @@
 import React from 'react'
 import Image from 'next/image'
-import cursodemagia from '../../../public/cursodemagia1.png'
+import aprendemagia from '../../../public/aprendemagia.png'
 import './page.css'
 import Link from 'next/link'
+import { Zap, Wand, CirclePlus} from 'lucide-react' 
 
 function Cursos() {
   return (
     <section className='curso'>
         <div className='cursobasico'>
           <div className='imagenescursos'>
-            <Image className='cursoimagen' src={cursodemagia} />
+            <Image className='aprendemagia' alt='aprendemagia' src={aprendemagia} />
             </div>
             <div className='parrafo'>
-            <h1>Curso Básico de Magia e Ilusionismo</h1>
+            <h1>Aprende Magia</h1>
             <p>
                Este curso esta destinado a quienes desee adentrarse al mundo de la magia. <br></br> El curso tiene como objetivo enseñarte secretos simples y de gran impacto, para que puedas disfrutar con tus amigo, conocidos y familiares. <br></br><br></br></p>
             </div>
@@ -28,7 +29,7 @@ function Cursos() {
                Recibirás un E-book con el contenido teórico y práctico. Más los videos en formato MP4 para que puedas observar y estudiar los movimientos. <br></br><br></br>
                El Curso es simple, sencillo y fácil de entender. </p>
                <div className='boton'>
-               <Link href={'https://wa.link/qk6cvj'} className="btn btn-primary">+ Más Info</Link>
+               <Link href={'https://wa.link/qk6cvj'} className="btn btn-primary"><div><CirclePlus /></div>Más Info</Link>
                </div>
         </div>
     </section>

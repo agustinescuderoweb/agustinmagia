@@ -20,6 +20,18 @@
 
 }
 
+.rayo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.rab {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+ 
+ 
+
 .agustinmagia {
     width: 50%;
     height: 50%;
@@ -41,6 +53,18 @@
 
 .Link {
     width: 10%;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.boton {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
 }
 
 
@@ -70,6 +94,7 @@
     }
     
     .seccion p {
+        font-size: 18px;
         padding: 5%;
     }
 

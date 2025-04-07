@@ -41,8 +41,8 @@ function Contacto() {
           <Link href="https://www.instagram.com/agustinmagia/" target="_blank">
             <Image
               className="instagram"
-              width={50}
-              height={50}
+              width={30}
+              height={30}
               src={instagramWhite}
               alt="Instagram"
             />
@@ -50,8 +50,8 @@ function Contacto() {
           <Link href="https://wa.link/qk6cvj" target="_blank">
             <Image
               className="whatsapp"
-              width={50}
-              height={50}
+              width={30}
+              height={30}
               src={whatsappWhite}
               alt="WhatsApp"
             />

@@ -1,6 +1,3 @@
-
-
-
 .magiadecerca {
     margin: 8%;
     display: flex;
@@ -67,15 +64,31 @@
 }
 
 p {
-    padding: 10%;
+    font-size: 20px;
 }
+
+.rayo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.rab {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+ 
 
 .secciontexto {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 10%;
 }
 
 .sections {
@@ -162,7 +175,7 @@ p {
         border: 2px solid black;
         border-radius: 10px;
         box-shadow: 0px 0px 10px black;
-        padding: 5%;
+        padding: 12%;
     }
     
     .magiacerca {
@@ -171,6 +184,7 @@ p {
         margin: 10%;
         width: 80%;
         height: 80%;
+        margin-bottom: 50px;
     }
     
     .magiasalon {
@@ -214,5 +228,11 @@ p {
         margin: 10%;
     }
      
+    .secciontexto {
+        width: 250px;
+        height: 550px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
     

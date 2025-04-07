@@ -5,6 +5,7 @@ import magiabares from '../../../public/bares.jpg'
 import Image from 'next/image';
 import './page.css'
 import Link from 'next/link';
+import { Zap, Wand, CirclePlus} from 'lucide-react' 
 
 
 function presentaciones () {
@@ -14,36 +15,36 @@ function presentaciones () {
         <div className='magiadecerca'>
        <Image className='magiacerca' src={magiadecerca}></Image>
        <div className='secciontexto'>
-       <h1>MAGIA DE CERCA</h1>
+       <h1>MAGIA DE CERCA</h1><div className='rayo'>< Zap /></div>
        <p>Presentaciones pensadas para 
          distacias cortas a centímetros de la vista del espectador. 
          La manipulación de objetos pequeños como cartas, monedas, 
          pañuelos, bolas de esponjas....
-         Son los protagonistas de un momento único.</p>
-         <Link href="./contactos" className="btn btn-primary">+ Más Info</Link>
+         Son los protagonistas de un momento único.</p><div className='rab'>< Wand /></div>
+         <Link href="./contactos" className="btn btn-primary"><div><CirclePlus /></div> Más Info</Link>
          </div>
   </div>
   </div>
   <div className='magiasalon'>
       <Image className='magiasalonimagen' src={magiasalon}></Image>
       <div className='secciontexto'>
-      <h1>MAGIA DE SALÓN</h1>
+      <h1>MAGIA DE SALÓN</h1><div className='rayo'>< Zap /></div>
       <p>Presentaciones que requieren un
          número mayor de espectadores. La participación de
          los presentes, más un clima de profundo misterio
-         generan un ambiente de completa sorpresa...</p>
-         <Link href="./contactos" className="btn btn-primary">+ Más Info</Link>
+         generan un ambiente de completa sorpresa...</p><div className='rab'>< Wand /></div>
+         <Link href="./contactos" className="btn btn-primary"><div><CirclePlus /></div> Más Info</Link>
          </div>
     </div>
     <div className='magiabares'>
       <Image className='magiabaresimagen' src={magiabares}></Image>
       <div className='secciontexto'>
-      <h1>MAGIA PARA BARES/RESTORANES</h1>
+      <h1>MAGIA PARA BARES</h1><div className='rayo'>< Zap /></div>
       <p>
          Efectos de magia exclusivos para espacios
          reducidos llenan de asombro y misterio a todos aquellos que
-         deseen disfrutar de un momento diferente.</p>
-         <Link href="./contactos" className="btn btn-primary">+ Más Info</Link>
+         deseen disfrutar de un momento diferente.</p><div className='rab'>< Wand /></div>
+         <Link href="./contactos" className="btn btn-primary"><div><CirclePlus /></div> Más Info</Link>
          </div>
     </div>
     </section>
