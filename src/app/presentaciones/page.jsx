@@ -22,6 +22,7 @@ function presentaciones () {
          pañuelos, bolas de esponjas....
          Son los protagonistas de un momento único.</p><div className='rab'>< Wand /></div>
          <Link href="./contactos" className="btn btn-primary"><div><CirclePlus /></div> Más Info</Link>
+         <Link href={'https://drive.google.com/file/d/1wBi0I3xVJq5-kfavb6SX5hm93Lh-HNn-/view?usp=drive_link'} className='pdf'>Descargar PDF</Link>
          </div>
   </div>
   </div>
@@ -34,6 +35,7 @@ function presentaciones () {
          los presentes, más un clima de profundo misterio
          generan un ambiente de completa sorpresa...</p><div className='rab'>< Wand /></div>
          <Link href="./contactos" className="btn btn-primary"><div><CirclePlus /></div> Más Info</Link>
+         <Link href={'https://drive.google.com/file/d/1wBi0I3xVJq5-kfavb6SX5hm93Lh-HNn-/view?usp=drive_link'} className='pdf'>Descargar PDF</Link>
          </div>
     </div>
     <div className='magiabares'>
@@ -45,6 +47,7 @@ function presentaciones () {
          reducidos llenan de asombro y misterio a todos aquellos que
          deseen disfrutar de un momento diferente.</p><div className='rab'>< Wand /></div>
          <Link href="./contactos" className="btn btn-primary"><div><CirclePlus /></div> Más Info</Link>
+         <Link href={'https://drive.google.com/file/d/1kohoVl_ZOFKo_7hmVW0fxzP2J4n6CarG/view?usp=drive_link'} className='pdf'>Descargar PDF</Link>
          </div>
     </div>
     </section>

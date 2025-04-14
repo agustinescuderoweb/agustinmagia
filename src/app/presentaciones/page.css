@@ -96,6 +96,11 @@ p {
     padding: 10% 0 10% 0 ;
 }
 
+.pdf {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
 @media screen and (max-width: 960px) {
     
     .magiadecerca {
@@ -149,6 +154,7 @@ p {
         border: 2px solid black;
         border-radius: 10px;
         box-shadow: 0px 0px 10px black;
+        padding: 5%;
         
     }
     
@@ -217,6 +223,7 @@ p {
         border: 2px solid black;
         border-radius: 10px;
         box-shadow: 0px 0px 10px black;
+        padding: 5%;
         
     }
     
@@ -227,12 +234,6 @@ p {
         box-shadow: 0px 0px 10px black;
         margin: 10%;
     }
-     
-    .secciontexto {
-        width: 250px;
-        height: 550px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
+
 }
     
